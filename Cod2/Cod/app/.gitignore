@@ -1,0 +1,15 @@
+Pasta de build gerada
+/build
+
+Arquivos de configuração local do Android Studio
+.idea/
+.gradle/
+local.properties
+
+Arquivos de sistema
+*.iml
+.DS_Store
+
+Logs
+/captures
+*.log

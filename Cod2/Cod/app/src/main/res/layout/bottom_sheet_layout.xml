@@ -1,0 +1,53 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="16dp"
+    android:layout_marginBottom="-8dp"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textViewSensorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome do Sensor"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+            android:textColor="?android:attr/textColorPrimary"/>
+
+        <TextView
+            android:id="@+id/textViewSensorId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID: S000"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/textViewWaterLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nível da Água: 0.0m"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/textViewStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STATUS: NORMAL"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="18dp"
+            android:padding="8dp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
