@@ -1,7 +1,7 @@
 ---
 
 ### *Branch com os arquivos*
-Master
+master
 
 ### *Nome do Aplicativo*
 FloodGuard
@@ -40,7 +40,10 @@ Para fins de teste e desenvolvimento futuro, as credenciais a serem utilizadas s
 
 Para compilar e rodar este projeto, são necessários dois passos principais:
 
-*1. Faça o download dos arquivos disponíveis na branch "Master"*
+*1. Faça o download dos arquivos disponíveis na branch "master"*
+   * Clique na branch master
+   * Clique em "Code"
+   * Clique em "Download ZIP"
 
 *2. Rodar o Aplicativo*
    * Abra o projeto no Android Studio.
