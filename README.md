@@ -36,22 +36,15 @@ Para fins de teste e desenvolvimento futuro, as credenciais a serem utilizadas s
 * *E-mail:* ana.silva@gmail.com
 * *Senha:* senha123
 
-*(Observação: Atualmente, o aplicativo abre diretamente na tela do mapa, sem exigir login.)*
-
 ### *Instruções Básicas de Execução*
 
 Para compilar e rodar este projeto, são necessários dois passos principais:
 
-*1. Configurar a Chave da API do Google Maps (Obrigatório)*
-   * O projeto não funcionará sem uma chave de API válida do Google Maps.
-   * *Obtenha a Chave:* Vá ao [Google Cloud Console](https://console.cloud.google.com/), crie um projeto, ative a API *"Maps SDK for Android"* e gere uma "Chave de API".
-   * *Restrinja a Chave:* É crucial restringir a chave para o seu app. Adicione uma restrição "Apps Android" com:
-      * *Nome do pacote:* com.enzop.floodguard
-      * *Impressão digital SHA-1:* Execute o comando ./gradlew signingReport no terminal do Android Studio para obter esta chave.
-   * *Adicione a Chave ao Projeto:* Abra o arquivo app/src/main/AndroidManifest.xml e cole sua chave no campo android:value da tag <meta-data> correspondente.
+*1. Faça o download dos arquivos disponíveis na branch "Master"*
 
 *2. Rodar o Aplicativo*
    * Abra o projeto no Android Studio.
    * Aguarde a sincronização do Gradle terminar com sucesso.
    * Conecte um dispositivo Android ou inicie um emulador.
    * Clique no botão de *Play (▶)* para instalar e executar o aplicativo.
+   * Faça o login com os acessos informados acima.
